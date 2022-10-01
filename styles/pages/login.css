@@ -10,6 +10,12 @@
     left: 0;
     top: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ld-login > .ld-wrapper > .ld-header> .ld-header-content{
+    background-color: aquamarine;
 }
 
 .ld-login > .ld-wrapper >.ld-main-content{
