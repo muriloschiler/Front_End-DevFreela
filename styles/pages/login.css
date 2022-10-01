@@ -36,7 +36,7 @@
 
 /* MAIN CONTENT */
 .ld-login > .ld-wrapper >.ld-main-content{
-    margin-top: var(--ld-header-heigth);
+    margin-top: var(--ld-header-higth);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
