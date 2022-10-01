@@ -6,7 +6,7 @@
 /* HEADER */
 
 .ld-login > .ld-wrapper > .ld-header{
-    background-color: green;
+    background-color: white;
     height: var(--ld-header-heigth);
     position: fixed;
     width: 100%;
@@ -16,7 +16,6 @@
 }
 
 .ld-login>.ld-wrapper>.ld-header>.ld-wrapper-header-content{
-    background-color: aquamarine;
     max-width: var(--ld-wrapper-sizing);
     margin: 0 auto;
     display: flex;
@@ -24,7 +23,6 @@
 }
 
 .ld-login>.ld-wrapper >.ld-header>.ld-wrapper-header-content>.ld-wrapper-image{
-    background-color: pink;
     height: var(--ld-header-higth);
     padding: 25px 0;
 }
@@ -41,9 +39,10 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.ld-login > .ld-wrapper >.ld-main-content>.ld-left-content{
+    
+    padding-top: 48px;
+}
 .ld-login > .ld-wrapper >.ld-main-content>.ld-right-content{
     background-color: red;
-}
-.ld-login > .ld-wrapper >.ld-main-content>.ld-left-content{
-    background-color: blue;
 }
