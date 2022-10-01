@@ -1,0 +1,26 @@
+.ld-login > .ld-wrapper{
+    max-width: var(--ld-wrapper-sizing);
+    margin: 0 auto;
+}
+
+.ld-login > .ld-wrapper > .ld-header{
+    background-color: green;
+    height: var(--ld-header-heigth);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.ld-login > .ld-wrapper >.ld-main-content{
+    margin-top: var(--ld-header-heigth);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ld-login > .ld-wrapper >.ld-main-content>.ld-right-content{
+    background-color: red;
+}
+.ld-login > .ld-wrapper >.ld-main-content>.ld-left-content{
+    background-color: blue;
+}
