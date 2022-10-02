@@ -1,0 +1,17 @@
+.ld-wrapper{
+    max-width: var(--ld-wrapper-sizing);
+    margin: 0 auto;
+}
+
+.ld-wrapper >.ld-main-content{
+    margin-top: var(--ld-header-higth);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ld-wrapper >.ld-main-content>.ld-left-content{
+    padding-top: 48px;
+}
+.ld-wrapper >.ld-main-content>.ld-right-content{
+    background-color: red;
+}
