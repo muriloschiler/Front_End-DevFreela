@@ -1,0 +1,42 @@
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+/* DIV MAIN-TITLE */
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-wrapper-main-title{
+    margin-bottom: 40px;
+}
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-wrapper-main-title>.steps{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ld-color-gray);
+    font-weight: 800;
+}
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-wrapper-main-title>.ld-main-title{
+    margin-top: 10px;
+    font-weight: 800;
+}
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-wrapper-main-title>.ld-main-title>.ld-up-title{
+    display: block;
+    margin-bottom:5px;
+    font-size: calc( var(--font-size-base) + 40px );
+}
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-wrapper-main-title>.ld-main-title>.ld-down-title{
+    font-size: calc( var(--font-size-base) + 20px );
+}
+
+/* DIV RADIO */
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-radio-buttons{
+    margin-bottom: 30px;
+}
+
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-radio-buttons>.title{
+    font-size: calc(var(--font-size-base ) + 8px);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-radio-buttons>.buttons>.ld-radio{
+    margin-right: 50px;
+}
