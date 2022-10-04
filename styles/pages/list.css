@@ -1,3 +1,14 @@
-.ld-list>.ld-wrapper>.ld-main-content{
-    background-color: red;
+.ld-list>.ld-wrapper>.ld-main-content>.ld-title-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.ld-list>.ld-wrapper>.ld-main-content>.ld-title-button>h1{
+    font-size: calc(var(--font-size-base) + 25px);
+    font-weight: 800;
+}
+
+.ld-list>.ld-wrapper>.ld-main-content>.ld-table{
+    margin-top: 20px;
 }

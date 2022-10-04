@@ -9,6 +9,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.ld-wrapper >.ld-main-content.-one-column{
+    margin-top: var(--ld-header-heigth);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .ld-wrapper >.ld-main-content>.ld-left-content{
     padding-top: 48px;
 }
