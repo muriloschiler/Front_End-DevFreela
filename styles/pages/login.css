@@ -20,10 +20,10 @@
 .ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-wrapper-main-title>.ld-main-title>.ld-up-title{
     display: block;
     margin-bottom:5px;
-    font-size: calc( var(--font-size-base) + 40px );
+    font-size: calc( var(--font-size-base) + 38px );
 }
 .ld-login>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-wrapper-main-title>.ld-main-title>.ld-down-title{
-    font-size: calc( var(--font-size-base) + 20px );
+    font-size: calc( var(--font-size-base) + 22px );
 }
 
 /* DIV RADIO */

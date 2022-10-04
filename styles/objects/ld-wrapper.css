@@ -4,7 +4,7 @@
 }
 
 .ld-wrapper >.ld-main-content{
-    margin-top: var(--ld-header-higth);
+    margin-top: var(--ld-header-heigth);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
