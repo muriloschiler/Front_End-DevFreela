@@ -58,3 +58,20 @@
 }
 
 /* icons */
+
+.ld-wrapper-table>.ld-table>.body>.row>.icons{
+}
+
+
+.ld-wrapper-table>.ld-table>.body>.row>.icons>.edit{
+    color: var(--ld-color-primary);
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: calc(var(--font-size-base) + 20px );
+}
+
+.ld-wrapper-table>.ld-table>.body>.row>.icons>.delete{
+    color: var(--ld-color-danger);
+    cursor: pointer;
+    font-size: calc(var(--font-size-base) + 20px );
+}
