@@ -1,0 +1,60 @@
+
+/* TABLE */
+.ld-wrapper-table{
+    margin-top: 40px;
+}
+.ld-wrapper-table>.ld-table{
+    box-shadow: 0px 4px 4px black;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 24px;
+}
+.ld-wrapper-table>.ld-table>.head{
+    font-size: calc(var(--font-size-base) + 6px);
+    font-weight: 600;
+    color: var(--ld-color-gray-light);
+    padding: 0 32px;
+    
+}
+
+.ld-wrapper-table>.ld-table>.head>.row{
+    display: grid;
+    grid-template-columns: 2fr 1fr 200px; 
+}
+
+.ld-wrapper-table>.ld-table>.body{
+
+}
+
+.ld-wrapper-table>.ld-table>.body>.row{
+    display: grid;
+    grid-template-columns: 2fr 1fr 200px;
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--ld-color-gray-light);
+}
+
+.ld-wrapper-table>.ld-table>.body>.row:last-child{
+    border-bottom: none;
+}
+
+/* title-description */
+.ld-wrapper-table>.ld-table>.body>.row>.title-description{
+    
+}
+
+.ld-wrapper-table>.ld-table>.body>.row>.title-description>.title{
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.ld-wrapper-table>.ld-table>.body>.row>.title-description>.description{
+
+}
+
+/* price */
+
+.ld-wrapper-table>.ld-table>.body>.row>.price{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* icons */
