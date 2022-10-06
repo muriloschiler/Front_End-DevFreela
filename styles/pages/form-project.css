@@ -1,0 +1,18 @@
+/*  Main Title */
+.ld-form-project>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-main-title{
+    font-size: calc(var(--font-size-base) + 25px);    
+    font-weight: 800;
+    margin-bottom: 25px;
+    max-width: 415px;
+}
+/*  INPUTS */
+.ld-form-project>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-input{
+    margin-bottom: 30px;
+}
+.ld-form-project>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-input:last-child{
+    margin-bottom: 0px;
+}
+/* Button */
+.ld-form-project>.ld-wrapper>.ld-main-content>.ld-left-content>.ld-button{
+    margin-top: 10px;
+}

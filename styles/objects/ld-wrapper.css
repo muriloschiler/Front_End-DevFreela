@@ -17,7 +17,10 @@
 
 .ld-wrapper >.ld-main-content>.ld-left-content{
     padding-top: 48px;
+    max-width: 300px;
+    margin: 0 auto;
 }
+
 .ld-wrapper >.ld-main-content>.ld-right-content{
     background-color: red;
 }
