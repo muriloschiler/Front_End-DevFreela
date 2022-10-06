@@ -4,6 +4,7 @@
 }
 
 .ld-wrapper >.ld-main-content{
+    position: relative;
     margin-top: var(--ld-header-heigth);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -15,12 +16,23 @@
     grid-template-columns: 1fr;
 }
 
+/* Back-Button */
+.ld-wrapper>.ld-main-content>.ld-back-button{
+    position: fixed;   
+    top: calc(var(--ld-header-heigth) + 50px);
+
+    font-size: calc(var(--font-size-base) + 30px);
+    font-weight: 800;
+}
+
+/* Left Content */
 .ld-wrapper >.ld-main-content>.ld-left-content{
     padding-top: 48px;
     max-width: 300px;
     margin: 0 auto;
 }
 
+/* Right Content */
 .ld-wrapper >.ld-main-content>.ld-right-content{
     background-color: red;
 }
